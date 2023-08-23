@@ -1,0 +1,64 @@
+.carousel-inner
+{
+  height:700px;
+}
+
+.carousel-inner .carousel-item img{
+  height:700px;
+  object-fit: cover;
+}
+
+.carousel-caption h2{
+  color:#E50914;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.carousel-caption p{
+  color:white;
+}
+.rowposter{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+.rowimg{
+  max-height: 300px;
+  object-fit: contain;
+  box-sizing: content-box;
+  transition: transform 450ms;
+  margin-right: 7px;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.rowimg:hover{
+  transform: scale(1.09);
+  cursor:pointer;
+}
+
+.rowposter::-webkit-scrollbar{
+  display:none;
+  /*width: 10px;
+  height: 10px;*/
+}
+
+/*.rowposter::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.rowposter::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.rowposter::-webkit-scrollbar-track {
+  background: transparent;
+}*/
